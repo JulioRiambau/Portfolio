@@ -20,8 +20,8 @@ def get_percentage_change(symbol):
     response.raise_for_status()
     data = response.json()
     today = datetime.datetime.now().date()
-    yesterday = str(today - datetime.timedelta(2))
-    day_before = str(today - datetime.timedelta(3))
+    yesterday = str(today - datetime.timedelta(1))
+    day_before = str(today - datetime.timedelta(2))
     if yesterday in data['Time Series (Daily)'] and day_before in data['Time Series (Daily)']:
         yesterday_close = float(data['Time Series (Daily)'][str(yesterday)]['4. close'])
         day_before_close = float(data['Time Series (Daily)'][str(day_before)]['4. close'])
