@@ -1,0 +1,36 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: Cache directories
+.npm
+.yarn
+yarn-error.log
+
+# Optional: Coverage output
+coverage
+
+# Optional: Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Optional: Bower dependency directory (https://bower.io/)
+bower_components
+
+# Optional: dotenv environment variable file
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db

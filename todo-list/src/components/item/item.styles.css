@@ -1,0 +1,21 @@
+li {
+  text-align: left;
+  position: relative;
+  padding: 0.5rem;
+}
+
+.remove {
+  margin-left: 0.5rem;
+  background-color: #ff6347; /* Coral color */
+  color: #fff; /* White text color */
+  padding:4px 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  
+}
+
+.remove:hover {
+  background-color: #d84315; /* Darker Coral color on hover */
+}
