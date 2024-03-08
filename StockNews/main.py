@@ -28,5 +28,5 @@ if abs(percentage_change) > CHANGE_MARGIN:
             replace("[Content]", article['content'])
 
         print(message)
-        #send_sms(message)
+        send_sms(message)
 
